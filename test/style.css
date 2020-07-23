@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+#input-container
+{
+    margin: 30pt;
+}
+#square-container
+{
+    margin: 30pt;
+    display:flex;
+    flex-wrap: wrap;
+}
+.square
+/*这个class在哪里出现的*/
+{
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    /*这里为什么是background-color*/
+}
